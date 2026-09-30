@@ -1,0 +1,26 @@
+<form id="task-form">
+
+    <select id="task">
+        <option value="qa">Ask a Question</option>
+        <option value="explain">Explain a Topic</option>
+        <option value="quiz">Generate Quiz</option>
+        <option value="summarize">Summarize</option>
+        <option value="learn">Learning Path</option>
+    </select>
+
+    <textarea
+        id="input-text"
+        placeholder="Enter your question or topic..."
+    ></textarea>
+
+    <button type="submit">
+        Generate
+    </button>
+
+</form>
+
+<div id="loading" style="display:none;">
+    Generating...
+</div>
+
+<div id="result"></div>
